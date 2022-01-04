@@ -1,0 +1,29 @@
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px 20px;
+        flex-direction: column;
+        height: auto;
+    }
+    .input__nav {
+        justify-content: space-between;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .input__nav input {
+        width: 75%;
+    }
+    .addBtn {
+        font-size: 14px;
+        padding: 10px;
+        text-transform: unset;
+    }
+
+    main {
+        padding: 30px 20px;
+    }
+    .removeBtn{
+        padding: 10px;
+        font-size: 12px !important;
+        text-transform: lowercase;
+    }
+}

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  padding: 20px 0px;
+
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0,0,0, 0.127);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 50px;
+  background: black;
+}
+header h1 {
+  display: flex;
+  color: white;
+}
+
+/*NAVBAR*/
+.input__nav input {
+  height: 35px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 0px 10px;
+  width: 300px;
+}
+
+.input__nav {
+  display: flex;
+  align-items: center;
+}
+
+.addBtn {
+  background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.addBtn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/*NAVBAR end*/
+
+main {
+  padding: 30px 50px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: auto;
+}
+.todo__items li {
+  background-image: radial-gradient(circle 610px at 5.2% 51.6%, rgba(5, 8, 114, 1) 0%, rgba(7, 3, 53, 1) 97.5%);
+}
+.todo__content {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+.todo__content span {
+  width: 100%;
+  font-size: 24px;
+  color: white;
+
+  word-wrap: break-word;
+}
+.checkbox {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+.removeBtn {
+  background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
+  padding: 10px 20px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px !important;
+}
+
+.removeBtn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.done__items li {
+  background-image: radial-gradient(circle 610px at 5.2% 51.6%, rgba(5, 8, 114, 1) 0%, rgba(7, 3, 53, 1) 97.5%);
+}
+.done__items span {
+  font-size: 24px;
+  color: white;
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+
+.list__amount {
+  width: 30px;
+  height: 30px;
+  background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
+  color: white;
+  font-size: 18px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
