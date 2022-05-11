@@ -18,7 +18,7 @@
           <li
             v-for="item in filterList"
             :key="item.id"
-            class="animate__animated animate__fadeInUp"
+            class="animate__animated animate__fadeInDown"
           >
             <div class="todo__content">
               <input
@@ -59,7 +59,7 @@
           <li
             v-for="(itemdone) in filterList2"
             :key="itemdone.id"
-            class="animate__animated animate__slideInDown"
+            class="animate__animated animate__slideInUp"
           >
             <div class="todo__content">
               <input
